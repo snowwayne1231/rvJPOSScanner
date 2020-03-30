@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+    <com.izforge.izpack.panels.hello.HelloPanel id="HelloPanel_0"/>
+    <com.izforge.izpack.panels.licence.LicencePanel id="LicencePanel_1"/>
+    <com.izforge.izpack.panels.target.TargetPanel id="TargetPanel_2">
+        <installpath>C:\Program Files\Datalogic\JavaPOS</installpath>
+    </com.izforge.izpack.panels.target.TargetPanel>
+    <com.izforge.izpack.panels.packs.PacksPanel id="PacksPanel_3">
+        <pack index="0" name="Base Drivers" selected="true"/>
+        <pack index="1" name="Javax.comm Libraries" selected="true"/>
+        <pack index="2" name="Javax.usb Libraries" selected="true"/>
+        <pack index="3" name="JavaPOSTest" selected="true"/>
+        <pack index="4" name="CMDFW" selected="true"/>
+        <pack index="5" name="Javapos.com" selected="true"/>
+        <pack index="6" name="Javadoc" selected="true"/>
+        <pack index="7" name="Update CLASSPATH" selected="true"/>
+    </com.izforge.izpack.panels.packs.PacksPanel>
+    <com.izforge.izpack.panels.install.InstallPanel id="InstallPanel_4"/>
+    <com.izforge.izpack.panels.process.ProcessPanel id="ProcessPanel_5"/>
+    <com.izforge.izpack.panels.finish.FinishPanel id="FinishPanel_6"/>
+</AutomatedInstallation>

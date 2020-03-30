@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+
+    <JposEntry logicalName="RV_GPS4400_SCANNER">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon GPS440 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon GPS440 Scanner"/>
+        <prop name="productId" type="String" value="1216"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <!-- <prop name="portName" type="String" value="1138"/> -->
+        <prop name="vendorId" type="String" value="05F9"/>
+        
+        
+    </JposEntry>
+
+    <JposEntry logicalName="0-USB\VID_05F9 PID_4204 REV_1138">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon GPS440 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon GPS440 Scanner"/>
+        <prop name="productId" type="String" value="4204"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <!-- <prop name="portName" type="String" value="COM4"/> -->
+    </JposEntry>
+    
+    <!--
+    <JposEntry logicalName="DL-Portal-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSPortalScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="PortalScanner" version="1.13"/>
+        <product description="PortalScannerService" name="PortalScannerService" url="http://www.adc.datalogic.com"/>
+        
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeType" type="String" value="warhol"/>
+        <prop name="deviceBus" type="String" value="TCPIP"/>
+        <prop name="deviceClass" type="String" value="DLADCPortalScanner"/>
+        <prop name="deviceDescription" type="String" value="DLA Jade Portal Scanner"/>
+        <prop name="deviceName" type="String" value="DLA Portal Scanner"/>
+        <prop name="imageBuffers" type="String" value="1"/>
+        <prop name="ipAddress" type="String" value="10.1.10.168"/>
+        <prop name="ipPort" type="String" value="23959"/>
+        <prop name="laneNumber" type="String" value="0"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    -->
+    
+    <!--
+    <JposEntry logicalName="DLS-Powerscan-M9500-USB-COM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic Scanning Inc." url="http://www.scanning.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.scanning.datalogic.com"/>
+        
+        <prop name="9xxx" type="String" value="True"/>
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceDescription" type="String" value="DLS Powerscan M9500 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Powerscan M9500 Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="3"/>
+        <prop name="productId" type="String" value="0400"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="080C"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    -->
+</JposEntries>
